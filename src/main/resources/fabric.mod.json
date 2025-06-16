@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "servertextremover",
+  "version": "${version}",
+  "name": "servertextremover",
+  "description": "Server Text Remover Addon.",
+  "authors": [
+    "Divined"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.examples2.addon.AddonTemplates"
+    ]
+  },
+  "mixins": [
+    "addon-templates2.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
